@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plugin id="cordova-plugin-iosrtc-ios10" version="1.0.3" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>iOS Permissions</name>
+    <author>Seiryo Watanabe</author>
+    <description>Cordova / PhoneGap Plugin Permission Settings for cordova-plugin-iosrtc in iOS 10 by adding a declaration to the Info.plist file</description>
+    <keywords>cordova, ios, app, security, permissions, cordova-plugin-iosrtc, iOS 10</keywords>
+    <license>MIT</license>
+    <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+    </engines>
+    <platform name="ios">
+        <config-file parent="NSCameraUsageDescription" target="*-Info.plist">
+            <string>This app uses your camera to make video calls.</string>
+        </config-file>
+        <config-file parent="NSContactsUsageDescription" target="*-Info.plist">
+            <string>This app needs access to your contacts in order to be able to call them.</string>
+        </config-file>
+        <config-file parent="NSMicrophoneUsageDescription" target="*-Info.plist">
+            <string>This app uses your microphone to make calls.</string>
+        </config-file>
+    </platform>
+</plugin>

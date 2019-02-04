@@ -1,0 +1,37 @@
+{
+  "name": "cordova-plugin-ios-camera-permissions",
+  "version": "1.0.0",
+  "author": "Seiryo Watanabe",
+  "description": "Cordova / PhoneGap Plugin Permission Settings for cordova-plugin-iosrtc in iOS 10 by adding a declaration to the Info.plist file",
+  "cordova": {
+    "id": "cordova-plugin-iosrtc-ios10",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seiryow/cordova-plugin-iosrtc-ios10.git"
+  },
+  "keywords": [
+    "cordova",
+    "ios",
+    "app",
+    "security",
+    "permissions",
+    "cordova-plugin-iosrtc",
+    "iOS 10",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/github.com/seiryow/cordova-plugin-iosrtc-ios10/issues"
+  },
+  "homepage": "https://twitter.com/seiryow"
+}
